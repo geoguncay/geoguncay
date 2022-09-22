@@ -1,0 +1,26 @@
+header{
+    text-align: center;
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+.name{
+    text-transform: uppercase;
+    /* color: linear-gradient(to bottom right, red, yellow); */
+}
+.social{
+    padding: 1rem 0;
+}
+.media{
+    /* background-color: #f44336; */
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--color-light);
+}
+.media:hover{
+    color: var(--color-primary-variant);
+}
+.media:visited{
+    /* color: red; */
+    color: var(--color-primary-variant);
+}
