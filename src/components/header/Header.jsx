@@ -1,4 +1,3 @@
-import React from 'react'
 import './header.css'
 import me from '../../assets/me.png'
 import Social from './Social'

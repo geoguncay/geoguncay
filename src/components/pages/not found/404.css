@@ -1,0 +1,67 @@
+
+.error_container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  perspective: 1200px;
+}
+
+
+.back_Home{
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--color-primary-variant);
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+}
+
+.error_message{
+  font-weight: 100;
+}
+
+.error_title{
+  font-size: clamp(5rem, 40vmin, 20rem);
+  margin: 0;
+  margin-bottom: 1rem;
+  letter-spacing: 1rem;
+}
+
+.cloak{
+  height: 100%;
+  width: 100%;
+  transform-origin: 50% 30%;
+  background: radial-gradient(15% 100% at 50% 60%, transparent, #000 95%);
+}
+
+.cloak__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+.cloak__container {
+  height: 250vmax;
+  width: 250vmax;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.info{
+  text-align: center;
+  line-height: 1.5;
+  max-width: clamp(16rem, 90vmin, 25rem);
+  z-index: 1;
+}
+
+
+.error_message{
+  margin-bottom: 3rem;
+}

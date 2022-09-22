@@ -1,9 +1,9 @@
-import React from 'react'
 import './about.css'
-
+import Navbar from '../navbar/Navbar'
 function About() {
   return (
-    <div>About</div>
+    <div>About</div>,
+    <Navbar/>
   )
 }
 

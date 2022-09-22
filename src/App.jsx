@@ -1,21 +1,19 @@
-import React from 'react'
 import './app.css'
-import Header from './components/header/Header'
-import Navbar from './components/navbar/Navbar'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Contact from './components/contact/Contact'
+import { BrowserRouter,  Routes, Route} from 'react-router-dom'
+import Home from './components/pages/home/Home'
+import NotFound from './components/pages/not found/NotFound'
+import Projects from './components/pages/projects/Projects'
 
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Navbar/>
-    <About/>
-    <Experience/>
-    <Contact/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='*' element={<NotFound/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path="projects" element={<Projects/>}/>
+      </Routes> 
+    </BrowserRouter>
   )
 }
 
