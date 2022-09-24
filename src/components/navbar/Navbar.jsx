@@ -1,16 +1,17 @@
 import './navbar.css'
-import { NavLink } from 'react-router-dom'
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
+import {BiBookBookmark, BiMessageSquareEdit} from 'react-icons/bi'
+import {useState} from 'react'
 
-function Navbar() {
+const Navbar = () =>{
+  const [activeNav, setActiveNav ] = useState('#')
   return (
-    <li>
-      <ul>
-      <NavLink to='/'>Home</NavLink>
-      </ul>
-      <ul>
-      <NavLink to='/projects'>About</NavLink>
-      </ul>
-    </li>
+    <nav>
+      <a href="#" onClick={() => setActiveNav('#')}  className={activeNav==='#' ? 'active' : ''}> <AiOutlineHome/> </a>
+      <a href="#about" onClick={() => setActiveNav('#about')}  className={activeNav==='#about' ? 'active' : ''}> <AiOutlineUser/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')}  className={activeNav==='#experience' ? 'active' : ''}> <BiBookBookmark/> </a>
+      <a href="#contact"onClick={() => setActiveNav('#contact')}  className={activeNav==='#contact' ? 'active' : ''}> <BiMessageSquareEdit/> </a>
+    </nav>
   )
 }
 

@@ -4,7 +4,7 @@ import Social from './Social'
 
 function Header() {
   return (
-    <header>
+    <header id='header'>
       <div className="container">
         <h5>
           Hello I'm 
