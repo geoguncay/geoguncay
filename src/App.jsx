@@ -7,7 +7,7 @@ import Projects from "./components/pages/projects/Projects";
 function App() {
   return (
     <>
-    <BrowserRouter basename="/myportfolio/">
+    <BrowserRouter basename="/geoguncay/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
