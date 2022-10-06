@@ -7,5 +7,5 @@
 
 ## Checkout my work
 👇
-Open (https://imgeog.github.io/geoguncay") to view my portfolio.
+Open (https://geoguncay.github.io/geoguncay/) to view my portfolio.
 
