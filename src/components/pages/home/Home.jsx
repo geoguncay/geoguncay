@@ -1,8 +1,9 @@
 import Header from '../../header/Header'
 import Navbar  from '../../navbar/Navbar'
-import Experience from '../../experience/Experience'
 import About from '../../about/About'
 import Contact from '../../contact/Contact'
+import Footer from '../../footer/Footer'
+import Skills from '../../skills/Skills'
 
 function Home() {
   return (
@@ -10,8 +11,9 @@ function Home() {
     <Header/>
     <Navbar/>
     <About/>
-    <Experience/>
+    <Skills/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

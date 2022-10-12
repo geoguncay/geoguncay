@@ -8,21 +8,6 @@
   perspective: 1200px;
 }
 
-
-.back_Home{
-  text-transform: uppercase;
-  text-decoration: none;
-  background: var(--color-primary-variant);
-  padding: 1rem 4rem;
-  border-radius: 4rem;
-  font-size: 0.875rem;
-  letter-spacing: 0.05rem;
-}
-
-.error_message{
-  font-weight: 100;
-}
-
 .error_title{
   font-size: clamp(5rem, 40vmin, 20rem);
   margin: 0;
@@ -45,6 +30,7 @@
   right: 0;
   overflow: hidden;
 }
+
 .cloak__container {
   height: 250vmax;
   width: 250vmax;
@@ -64,4 +50,19 @@
 
 .error_message{
   margin-bottom: 3rem;
+  font-weight: 100;
+}
+
+.back_Home{
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+  color: #000;
+}
+.back_Home:hover{
+  background: var(--color-primary-variant);
+  /* opacity: .5; */
+  color: #fff;
 }

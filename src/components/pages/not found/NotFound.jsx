@@ -16,7 +16,9 @@ function NotFound() {
           We're fairly sure that page used to be here, but seems to have gone
           missing. We do apologise on it's behalf. 
         </p>
-        <Link className="back_Home" to='/'>Home</Link>
+        <button className="back_Home">
+          <Link  to='/'>Back Home</Link>
+        </button>
       </div>
     </div>
   );
