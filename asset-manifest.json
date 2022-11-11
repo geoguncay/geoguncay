@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/geoguncay/static/css/main.4a1bcbc7.css",
-    "main.js": "/geoguncay/static/js/main.365dc5e5.js",
+    "main.css": "/geoguncay/static/css/main.e84bd990.css",
+    "main.js": "/geoguncay/static/js/main.1d7efb50.js",
+    "static/media/me.png": "/geoguncay/static/media/me.bd5f5be6cbb4803bc8e4.png",
     "static/media/bg-contact.jpg": "/geoguncay/static/media/bg-contact.5e5e25f39bbc582d80a1.jpg",
-    "static/media/me.png": "/geoguncay/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/geoguncay/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/me-about.jpg": "/geoguncay/static/media/me-about.9efd0437b99606403e03.jpg",
     "static/media/bg-texture.png": "/geoguncay/static/media/bg-texture.b9f515b8dd3d93f8fb37.png",
     "index.html": "/geoguncay/index.html",
-    "main.4a1bcbc7.css.map": "/geoguncay/static/css/main.4a1bcbc7.css.map",
-    "main.365dc5e5.js.map": "/geoguncay/static/js/main.365dc5e5.js.map"
+    "main.e84bd990.css.map": "/geoguncay/static/css/main.e84bd990.css.map",
+    "main.1d7efb50.js.map": "/geoguncay/static/js/main.1d7efb50.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1bcbc7.css",
-    "static/js/main.365dc5e5.js"
+    "static/css/main.e84bd990.css",
+    "static/js/main.1d7efb50.js"
   ]
 }
