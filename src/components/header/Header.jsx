@@ -14,7 +14,7 @@ const Header = () => {
         Geo Guncay 
       </h1>
       <h5 className="text_level">
-         Web Developer Jr 
+        Web Developer Jr 
       </h5>
       <div className="social">
         <Social/>
