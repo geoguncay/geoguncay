@@ -16,18 +16,16 @@ h5{
   padding: 1rem 0;
 }
 .media {
-  /* background-color: #f44336; */
   padding: 1rem;
   font-size: 2rem;
-  color: var(--color-light);
+  color: var(--color-light); 
 }
-.media:hover {
+.media >:hover {
   color: var(--color-primary-variant);
+  transform: translateY(-5px);
+  transition: .5s ease;
 }
-.media:visited {
-  /* color: red; */
-  color: var(--color-primary-variant);
-}
+
 .me {
   width: 30rem;
   height: 100%;
@@ -39,7 +37,6 @@ h5{
 
 @media screen and (max-width: 1024px) {
   .media {
-    /* background-color: #f44336; */
     padding: 1rem;
     font-size: 2rem;
   }

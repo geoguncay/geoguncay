@@ -37,9 +37,15 @@
   justify-content: center;
   background: #2E2E48;
 }
+.skill_icon:hover{
+  color: var(--color-primary-variant);
+}
+.skill_items:hover{
+  transform: translateY(-5px);
+  transition: .4s ease-in-out;
+}
 .skill_item{
   text-align: center;
-  
 }
 
 .skill_icon{
@@ -67,6 +73,13 @@
   background: #2E2E48;
   gap: 1rem;
 }
+.tool_item:hover{
+  transform: translateY(-5px);
+  transition: .3s ease-in-out;
+}
 .tool_icon{
   font-size: 3rem;
+}
+.tool_icon:hover{
+  color: var(--color-primary-variant);
 }
