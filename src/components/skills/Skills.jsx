@@ -1,6 +1,6 @@
 import './skills.css'
 import {BsCodeSlash, BsPalette, BsTools} from 'react-icons/bs'
-import {SiFigma, SiNotion, SiVisualstudiocode, SiJavascript, SiPython, SiMysql, SiReact, SiGit} from 'react-icons/si'
+import {SiFigma, SiNotion, SiVisualstudiocode, SiJavascript, SiPython, SiReact, SiGit} from 'react-icons/si'
 import {ImHtmlFive, ImCss3} from 'react-icons/im'
 import {GrMysql} from 'react-icons/gr'
 import {CgWebsite} from 'react-icons/cg'

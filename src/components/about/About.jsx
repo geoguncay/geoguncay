@@ -12,9 +12,7 @@ function About() {
           <img src={meAbout} alt="me" />
         </div>
         <div className="about_content">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam minima nisi porro distinctio veritatis non quae, reprehenderit quasi impedit magni adipisci beatae, eos soluta? In accusamus officia possimus ratione ea.
-          Labore sunt voluptate molestiae animi impedit consequatur odit deleniti consequuntur temporibus porro minima harum unde non, voluptas consectetur aspernatur. Dolorum excepturi ea est explicabo eaque sed maxime temporibus aperiam exercitationem.
-          Eius, dolores! Eligendi saepe cum officia quia quae commodi, accusamus vel animi asperiores quibusdam natus sapiente dignissimos cupiditate. Mollitia similique, repudiandae nobis error nulla consectetur incidunt dicta vero sit veritatis.
+          <p>My name is Geovanny Guncay, I am currently expanding my professional horizons, I seek to improve and test my skills and knowledge. I do not have extensive experience, but I am preparing myself to take on new challenges, I enjoy situations where I have to test myself and learn new things, I consider that the ability to overcome is one of the very important qualities for a candidate, that is why it prepares me a diary to learn and improve.
           </p>
           <div className="phrase">
             <p><RiDoubleQuotesL/>Learning is an experience. Everything else is just information<RiDoubleQuotesR/> </p>
