@@ -1,12 +1,11 @@
 #skills{
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 5rem;
 }
 .skills{
-  width: 60%;
+  width: 80%;
 }
 .skills_card{
   padding: 1rem 2rem;
@@ -29,6 +28,7 @@
   flex-wrap: wrap;
 }
 .skill_items{
+  padding: 1rem;
   width: 7rem;
   height: 7rem;
   display: flex;
@@ -53,7 +53,7 @@
 }
 
 .tools{
-  width: 60%;
+  width: 80%;
   /* border: solid 1px green; */
 }
 .tool_card{
@@ -61,6 +61,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .tool_item{
   display: flex;
@@ -71,7 +72,7 @@
   height: 10rem;
   width: 20rem;
   background: #2E2E48;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 .tool_item:hover{
   transform: translateY(-5px);
@@ -82,4 +83,32 @@
 }
 .tool_icon:hover{
   color: var(--color-primary-variant);
+}
+@media screen and (max-width: 768px){
+  .skill_type{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .skill_items{
+    margin-top: 2rem;
+  }
+  .skill_icon{
+    font-size: 2.5rem;
+  }
+  .tools{
+    width: 80%;
+  }
+  .tool_card{
+    gap: 2rem;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (min-width: 1024px){
+  #skills{
+    min-height: 100vh;
+  }
 }

@@ -1,13 +1,11 @@
 header {
   text-align: center;
-  height: 100vh;
   padding-top: 5rem;
   overflow: hidden;
 }
 .name {
   font-size: 3rem;
   text-transform: uppercase;
-  /* color: linear-gradient(to bottom right, red, yellow); */
 }
 h5{
   font-size: 1.5rem;
@@ -37,6 +35,7 @@ h5{
 
 @media screen and (max-width: 1024px) {
   .media {
+    height: 100vh;
     padding: 1rem;
     font-size: 2rem;
   }

@@ -5,10 +5,22 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
+  gap: 1rem;
 }
 .menu_footer ul{
   display: flex;
 }
 .menu_footer ul li{
   padding: 0 1rem 0 0;
+}
+.copyright p{
+  display: flex;
+}
+@media screen and (max-width: 768px){
+  footer{
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px){
+  
 }
